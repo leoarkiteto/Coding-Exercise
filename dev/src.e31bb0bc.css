@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/e68266e7f45840028730e1948d943fb1.4f263590.jpeg") no-repeat left top/cover;
+}
+
+.calc {
+  width: 50%;
+  height: 80%;
+  background: #fff;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.calc__title {
+  margin: 2rem 1rem 0;
+  font-size: 2rem;
+}
+
+.calc__text {
+  color: #ccc;
+  width: 80%;
+  text-align: center;
+}
+
+.calc__fields label {
+  display: block;
+  margin: 2rem 0;
+}
+
+.calc__fields input {
+  border: none;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 300px;
+}
+
+.bottom_line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #035c8f;
+}
+.bottom_line:hover {
+  animation: border-line 1s ease linear;
+}
+
+@keyframes border-line {
+  0% {
+    transform: scaleX(1);
+  }
+  35% {
+    transform: scaleX(0.8);
+  }
+  100% {
+    transform: scaleX(1.2);
+  }
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
